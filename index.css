@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  transition-duration: 2s;
+}
+body{
+    background-color: #f2f5f7;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins';
+}
+div.container{
+    height: 100%;
+    width: 100%;
+}
+
+div.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+n{
+    font-family: 'Neoneon';
+}
+m{
+    font-family: 'Monoton';
+}
+div.logo{
+    margin-left: 40px;
+}
+div.logo  f{
+    font-family: 'Neoneon', sans-serif;
+    font-size: 30px;
+    color: #6cdbeb;
+} 
+div.logo  l{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    color: #6cdbeb;
+}
+
+div.heading div.nav{
+    margin-right: 70px;
+    font-size: 22px;
+}
+
+div.nav a {
+    text-decoration: none;
+    padding-left: 40px;
+    color: #6cdbeb;
+}
+div.nav a i{
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+div.box{
+    height: 90vh;
+    background: white;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+div.top{
+    height: 49%;
+    background: #6cdbeb;
+    display: flex;
+} 
+div.img{
+    height: 280px;
+    width: 270px;
+    margin-top: -20.9%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 2000;
+}
+div.img img{
+    height: 100%;
+    width: 100%;
+}
+
+div.top div.text {
+    background: linear-gradient(to right bottom, rgba(255, 255,255, 0.7),rgba(255, 255,255, 0.2));
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding-left: 200px;
+}
+
+div.bigtxt{
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: white;
+    
+}
+
+div.info{
+    width: 49%;
+    margin-left: 30%;
+    font-size: larger;
+    color: white;
+    margin-top: 40px;
+    
+}
+div#icons{
+    display: flex;
+    margin-top: 20px;
+}
+div.i{
+    height: 39px;
+    width: 70px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+div.i i{
+    font-size: 30px;
+    color: gray;
+    margin-top: 4px;
+}
+
+div.bottom{
+    display: flex;
+    text-align: center;
+}
+div.bottom div.about{
+    width: 49%;
+    font-size: 20px;
+    margin-top: 49px;
+    text-align: left;
+    padding-left: 149px;
+    padding-right: 20px;
+}
+div.about p{
+    font-size: 33px;
+}
+div.about g{
+    color: #6cdbeb;
+}
+button{
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #6cdbeb;
+    border: 1px solid skyblue;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+}
+button:hover{
+    color: #6cdbeb;
+    background: radial-gradient(white, #6cdbeb);
+}
+div.bottom div.data{
+    margin-top: 49px;
+    font-size: 20px;
+    width: 49%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+table tbody tr th{
+    padding-right: 100px;
+}
+table tbody tr td{
+    text-align: left;
+}
+
+section#projects{
+    min-height: 90vh;
+    border: 1px solid aqua;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+div.wrap{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255,255, 0.7),rgba(255, 255,255, 0.2));
+}
+div.wrap h1, h1#f{
+    color: #6cdbeb;
+    font-size: 30px;
+    padding-left: 70px;
+}
+div.wrap h1 i{
+    margin-top: 30px;
+}
+div.card2{
+    height: 90%;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 49px;
+}
+div.card2 iframe{
+    height: 100vh;
+    width: 100%;
+}
+
+div.intro{
+    text-align: left;
+    padding-left: 40px;
+}
+div.intro p b{
+    color: #6cdbeb;
+}
+section#form{
+    min-height: 70vh;
+    border: 1px solid hotpink;
+    margin-top: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to right top , #6cdbeb, hotpink, #6cdbeb);
+}
+
+form{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255,255, 0.7),rgba(255, 255,255, 0.2));
+    justify-content: center;
+    font-size: 22px;
+}
+h1#f{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px  hotpink;
+}
+form div.in{
+    width: 70%;
+    margin-left: 14.9%;
+    height: max-content;
+    padding-left: 20px;
+}
+div.in input{
+    width: 70%;
+    height: 40px;
+    border: 1px solid rgb(0, 119, 255);
+    margin-top: 20px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 22px;
+    padding-left: 20px;
+    background: linear-gradient(to right bottom, rgba(255, 255,255, 0.7),rgba(255, 255,255, 0.2));
+}
+
+textarea{
+    height: 340px;
+    width: 97%;
+    margin-top: 20px;
+    font-size: 22px;
+    color: blue;
+    border: 1px solid rgb(0, 119, 255);
+    background: linear-gradient(to right bottom, rgba(255, 255,255, 0.7),rgba(255, 255,255, 0.2));
+    padding-left: 20px;
+    overflow-y: auto;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+input#s{
+    width: 49%;
+    background-color: #6cdaeb9d;
+    cursor: pointer;
+    color: #6cdaeb9d;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 24%;
+    padding-right:  10px;
+    border: 1px solid rgb(0, 119, 255);
+    text-shadow: 2px 1px 2px  hotpink;
+}
+
+@media only screen and  (max-width: 600px){
+    .heading{
+        font-size: 14px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    div.logo{
+        margin-left: 15px;
+    }
+    .nav{
+        display: flex;
+         align-items: flex-start;
+         width: 100vw;
+         justify-content: space-evenly;
+    }
+    div.nav a {
+        font-size: 15px;
+        display: flex;
+        align-items: baseline;
+        padding-left: 20px;
+    }
+    div.nav a i{
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    div.box{
+        width: 100vw;
+        margin: 0;
+    }
+    div.top{
+        height: max-content;
+    }
+    div.top div.text{
+        padding-left: 10px;
+        text-align: left;
+        height: max-content;
+        padding-bottom: 50px;
+    }
+    div.bigtxt{
+        margin:0;
+        font-size: 24px;
+    }
+
+    div.info {
+        width: 100vw;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .info p{
+        text-align: center;
+    }
+    div#icons{
+        justify-content: center;
+    }
+    div.i{
+        display: flex;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-left: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    div.img{
+        margin-top: -7.5%;
+    }
+
+    div.bottom{
+        flex-direction: column;
+    }
+    div.bottom div.about{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 95%;
+    }
+
+    div.bottom div.data{
+        width: 100%;
+        margin-top: 5px;
+    }
+    section#projects{
+        margin-top: 10px;
+    }
+    div.wrap h1{
+        padding-left: 20px;
+        font-size: 1.5em;
+    }
+    div.card2{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    section#form{
+        min-height: max-content;
+    }
+    form{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: max-content;
+        padding-bottom: 40px;
+
+    }
+    h1#f{
+        font-size: 1.2em;
+        width: 80%;
+        text-align: left;
+    }
+   form div.in{
+    display: flex;
+    justify-content: center;
+        width: 98%;
+        margin: 0;
+        padding: 0;
+    }
+
+    div.in input{
+        display: flex;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 4px;
+    }
+
+    div.inn{
+        padding: 10px 20px 10px 10px;
+    }
+
+    input#s{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
