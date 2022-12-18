@@ -421,9 +421,11 @@ footer {
 
     }
     p#f{
-        font-size: 1.2em;
+        font-size: 1em;
         width: 80%;
-        text-align: center;
+        text-align: left;
+        padding-left: 20px;
+        font-weight: bolder;
     }
    form div.in{
     display: flex;
