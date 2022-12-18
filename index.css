@@ -421,9 +421,9 @@ footer {
 
     }
     p#f{
-        font-size: 20px;
+        font-size: 1.2em;
         width: 80%;
-        text-align: left;
+        text-align: center;
     }
    form div.in{
     display: flex;
