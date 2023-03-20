@@ -1,5 +1,5 @@
 const sender = document.getElementById("email");
-const message = document.getElementById("message):
+const message = document.getElementById("message"):
 function sendEmail() {
   Email.send({
     SecureToken : "ffb91c3d-9a52-4b35-b78d-753707581636",
