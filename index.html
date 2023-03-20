@@ -94,7 +94,7 @@
                             <tr>
                                 <th>e-mail</th>
                                 <td onclick="copyEmail()"> <b
-                                        style="color: #6cdbeb; cursor: copy;">sheddyokpako@gmail.com</b> </td>
+                                        style="color: #6cdbeb; cursor: copy;">mail.lucidity@gmail.com</b> </td>
                             </tr>
                             <tr>
                                 <th>Phone</th>
@@ -208,8 +208,21 @@
     </p>
 </footer>
 <script>
-    const copyEmail = () => {
-        alert('copied')
+    const copyEmail = async () => {
+   
+    try {
+        let value = 'mail.lucidity@gmail.com';
+        if(navigator.clipboard) {   
+          await navigator.clipboard.writeText(value);
+          alert (` Copied to the clipboard!`);
+        } else {
+          console.log( `Clipboard API Not Supported`);
+        }
+      } catch (err) {
+        console.log( `Failed to copy: ${err}`);
+        console.log(navigator.clipboard)
+      }
+
     }
 </script>
 
