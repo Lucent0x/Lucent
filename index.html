@@ -22,7 +22,9 @@
     <meta name="og:type" content="website">
     <title> CODEGOD SHEDRACK </title>
 </head>
-
+<script src=
+    "https://smtpjs.com/v3/smtp.js">
+  </script>
 <body>
     <div class="container">
         <div class="heading">
@@ -183,22 +185,23 @@
         </section>
 
         <section id="form">
-            <form action="#">
+            <form action="#" method="post">
                 <p id="f"> Leave me a message and i'll get back to you ASAP. </p>
                 <div class="in">
-                    <input type="email" placeholder="email">
+                    <input type="email" placeholder="email" id="email">
                 </div>
                 <div class="inn">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Start typing..."></textarea>
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Start typing..."></textarea>
                 </div>
                 <div class="in">
-                    <input id="s" type="submit" value="SEND">
+                    <input id="s" type="button" onclick="sendEmail()" value="SEND">
                 </div>
             </form>
         </section>
     </div>
     </div>
 </body>
+    <script src="./index.js"></script>
 <footer>
     <p>
         Powered by <n>LUCIDIT</n>
