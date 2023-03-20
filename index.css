@@ -447,7 +447,7 @@ footer {
         padding: 10px 20px 10px 10px;
     }
 
-    input#s{
+    button#s{
         margin: 0;
         padding: 0;
         display: flex;
