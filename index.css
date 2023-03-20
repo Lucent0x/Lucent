@@ -293,7 +293,7 @@ textarea{
     border-radius: 20px;
     padding-top: 10px;
 }
-input#s{
+button#s{
     width: 40%;
     background-color: #6cdaeb9d;
     cursor: pointer;
@@ -446,7 +446,12 @@ footer {
     div.inn{
         padding: 10px 20px 10px 10px;
     }
-
+form { 
+font-size:18px;
+}
+div.in input{
+      font-size: 18px;
+}
     button#s{
         margin: 0;
         padding: 0;
