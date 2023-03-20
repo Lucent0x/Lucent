@@ -452,6 +452,9 @@ font-size:18px;
 div.in input{
       font-size: 18px;
 }
+textarea{
+ font-size:18px;
+}
     button#s{
         margin: 0;
         padding: 0;
